@@ -42,7 +42,7 @@ Third: `/frontend` Frontend Development (ReactJS)
 CoTranslate local server setup
 -----------------------------------------------------------------------------------------------------------------------------
 
-##Frontend:
+## Frontend:
 
 1. Install [NodeJS]
 
@@ -76,7 +76,7 @@ CoTranslate local server setup
 
         `pip install -r requirements.txt`
 
-    4. Migrate models and generate the database:
+4. Migrate models and generate the database:
 
         `python manage.py makemigrations labelingPlatform`
         
@@ -86,23 +86,23 @@ CoTranslate local server setup
         
         `python manage.py migrate`
 
-    5. Generate the `static` directory with the platform's frontend:
+ 5. Generate the `static` directory with the platform's frontend:
 
         `python manage.py collectstatic`
 
-    6. Create a `superuser` to manage the platform:
+6. Create a `superuser` to manage the platform:
 
         `python manage.py createsuperuser`
 
-    7. Run the application:
+7. Run the application:
 
        `python manage.py runserver`
     
-    8. Access the platform by navigating to: 
+8. Access the platform by navigating to: 
     
         `127.0.0.1:8000`
     
-    9. Access the admin panel by navigating to: 
+9. Access the admin panel by navigating to: 
     
     	`127.0.0.1:8000/admin/`
    
