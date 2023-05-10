@@ -163,26 +163,26 @@ and export a variable to indicate that you want to use the Cloud SQL environment
 
 
 -------------------------------------------------------------------------------------------------------------------------------
-Start campaign and begin translation 
+Getting Started with the CoTranslate Language Translation Platform
 -----------------------------------------------------------------------------------------------------------------------------
 After starting the application in `backend` and `frontend`: 
 
-1. Signup in the following button: 
+1. **Sign up:** Click on the "Sign up" button as shown in the screenshot below:
 
 ![Alt text](./screenshots/main_screen.png)
 
-2 . Register profile and choose if the user is translator/validator or manager. 
+2 . **Register your profile:** Fill in the required information to register your profile, and choose your role as either a Translator/Validator or Manager.
 
 ![Alt text](./screenshots/signup.png)
 
 
-3 . Sign in with the manager profile and create campaign choosing the name of the campaign , description , source language, target language, number of validators, approval threshold , assign translators, assign validators and upload the sentence-pairs dataset (example dataset in `sample_dataset/sample_dataset.csv`.
+3 . **Create a campaign:** If you have registered as a Manager, sign in with your Manager profile. Next, create a new campaign by providing the following information: campaign name, description, source language, target language, number of validators, approval threshold, assigned translators, assigned validators, and upload the sentence-pairs dataset. An example dataset can be found in `sample_dataset/sample_dataset.csv`.
 
 <div style="text-align:center">
 <img src="./screenshots/create_campaign.png" alt="Image description" width="250" height="500" />
 </div>
 
-4 . Sign in with translator created user profile and start translating. 
+4 . **Begin translating:** If you have registered as a Translator, sign in with your Translator profile and start working on translations assigned to you.
 
 
 
