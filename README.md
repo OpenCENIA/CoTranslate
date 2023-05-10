@@ -74,37 +74,37 @@ CoTranslate local server setup
 
 3. Install dependencies by running the following command in the terminal:
 
-        `pip install -r requirements.txt`
+        pip install -r requirements.txt
 
 4. Migrate models and generate the database:
 
-        `python manage.py makemigrations labelingPlatform`
+        python manage.py makemigrations labelingPlatform
         
-        `python manage.py makemigrations`
+        python manage.py makemigrations
         
-        `python manage.py migrate labelingPlatform`
+        python manage.py migrate labelingPlatform
         
-        `python manage.py migrate`
+        python manage.py migrate
 
  5. Generate the `static` directory with the platform's frontend:
 
-        `python manage.py collectstatic`
+        python manage.py collectstatic
 
 6. Create a `superuser` to manage the platform:
 
-        `python manage.py createsuperuser`
+        python manage.py createsuperuser
 
 7. Run the application:
 
-       `python manage.py runserver`
+       python manage.py runserver
     
 8. Access the platform by navigating to: 
     
-        `127.0.0.1:8000`
+        127.0.0.1:8000
     
 9. Access the admin panel by navigating to: 
     
-    	`127.0.0.1:8000/admin/`
+    	127.0.0.1:8000/admin/
    
 
 
